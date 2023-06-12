@@ -1,0 +1,4 @@
+com.darenzai.dzero.common.feign.PigFeignAutoConfiguration
+com.darenzai.dzero.common.feign.PigFeignRetryAutoConfiguration
+com.darenzai.dzero.common.feign.sentinel.SentinelAutoConfiguration
+com.darenzai.dzero.common.feign.sentinel.handle.GlobalBizExceptionHandler

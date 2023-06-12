@@ -1,0 +1,7 @@
+com.darenzai.dzero.admin.api.feign.RemoteClientDetailsService
+com.darenzai.dzero.admin.api.feign.RemoteDictService
+com.darenzai.dzero.admin.api.feign.RemoteDeptService
+com.darenzai.dzero.admin.api.feign.RemoteLogService
+com.darenzai.dzero.admin.api.feign.RemoteTokenService
+com.darenzai.dzero.admin.api.feign.RemoteUserService
+com.darenzai.dzero.admin.api.feign.RemoteParamService

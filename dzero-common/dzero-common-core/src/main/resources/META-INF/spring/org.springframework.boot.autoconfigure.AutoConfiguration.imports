@@ -1,0 +1,6 @@
+com.darenzai.dzero.common.core.config.TaskExecutorConfiguration
+com.darenzai.dzero.common.core.config.JacksonConfiguration
+com.darenzai.dzero.common.core.config.RedisTemplateConfiguration
+com.darenzai.dzero.common.core.config.RestTemplateConfiguration
+com.darenzai.dzero.common.core.util.SpringContextHolder
+com.darenzai.dzero.common.core.config.WebMvcConfiguration

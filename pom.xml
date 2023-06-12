@@ -19,8 +19,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.pig4cloud</groupId>
-    <artifactId>pig</artifactId>
+    <groupId>com.darenzai</groupId>
+    <artifactId>dzero</artifactId>
     <name>${project.artifactId}</name>
     <version>3.6.7</version>
     <packaging>pom</packaging>
@@ -47,7 +47,7 @@
         <docker.plugin.version>0.32.0</docker.plugin.version>
         <docker.host>http://192.168.0.100:2375</docker.host>
         <docker.registry>192.168.0.100</docker.registry>
-        <docker.namespace>pig4cloud</docker.namespace>
+        <docker.namespace>darenzai</docker.namespace>
         <docker.username>username</docker.username>
         <docker.password>password</docker.password>
         <git.commit.plugin>4.9.9</git.commit.plugin>
@@ -94,20 +94,20 @@
     </dependencies>
 
     <modules>
-        <module>pig-register</module>
-        <module>pig-gateway</module>
-        <module>pig-auth</module>
-        <module>pig-upms</module>
-        <module>pig-common</module>
-        <module>pig-visual</module>
+        <module>dzero-register</module>
+        <module>dzero-gateway</module>
+        <module>dzero-auth</module>
+        <module>dzero-upms</module>
+        <module>dzero-common</module>
+        <module>dzero-visual</module>
     </modules>
 
     <dependencyManagement>
         <dependencies>
-            <!--pig 公共版本定义-->
+            <!--dzero 公共版本定义-->
             <dependency>
-                <groupId>com.pig4cloud</groupId>
-                <artifactId>pig-common-bom</artifactId>
+                <groupId>com.darenzai</groupId>
+                <artifactId>dzero-common-bom</artifactId>
                 <version>${project.version}</version>
                 <type>pom</type>
                 <scope>import</scope>

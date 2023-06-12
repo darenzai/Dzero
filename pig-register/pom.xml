@@ -16,14 +16,14 @@
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.pig4cloud</groupId>
-		<artifactId>pig</artifactId>
+		<groupId>com.darenzai</groupId>
+		<artifactId>dzero</artifactId>
 		<version>3.6.7</version>
 	</parent>
 
-	<artifactId>pig-register</artifactId>
+	<artifactId>dzero-register</artifactId>
 	<packaging>jar</packaging>
-	<name>pig-register</name>
+	<name>darenzai-register</name>
 	<description>nacos 注册配置中心</description>
 
 	<properties>

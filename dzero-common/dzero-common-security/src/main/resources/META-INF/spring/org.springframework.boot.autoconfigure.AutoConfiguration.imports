@@ -1,0 +1,7 @@
+com.darenzai.dzero.common.security.service.DzeroUserDetailsServiceImpl
+com.darenzai.dzero.common.security.service.DzeroAppUserDetailsServiceImpl
+com.darenzai.dzero.common.security.service.DzeroRedisOAuth2AuthorizationService
+com.darenzai.dzero.common.security.service.DzeroRedisOAuth2AuthorizationConsentService
+com.darenzai.dzero.common.security.component.DzeroSecurityInnerAspect
+com.darenzai.dzero.common.security.component.DzeroSecurityMessageSourceConfiguration
+com.darenzai.dzero.common.security.service.DzeroRemoteRegisteredClientRepository

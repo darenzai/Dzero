@@ -46,7 +46,7 @@ services:
 
   pig-upms:
     build:
-      context: ./pig-upms/pig-upms-biz
+      context: dzero-upms/pig-upms-biz
     restart: always
     container_name: pig-upms
     hostname: pig-upms
@@ -54,7 +54,7 @@ services:
 
   pig-monitor:
     build:
-      context: ./pig-visual/pig-monitor
+      context: dzero-visual/pig-monitor
     restart: always
     ports:
       - 5001:5001
@@ -64,7 +64,7 @@ services:
 
   pig-sentinel:
     build:
-      context: ./pig-visual/pig-sentinel-dashboard
+      context: dzero-visual/pig-sentinel-dashboard
     restart: always
     image: pig-sentinel
     container_name: pig-sentinel
@@ -73,7 +73,7 @@ services:
 
   pig-codegen:
     build:
-      context: ./pig-visual/pig-codegen
+      context: dzero-visual/pig-codegen
     restart: always
     container_name: pig-codegen
     hostname: pig-codegen
@@ -81,7 +81,7 @@ services:
 
   pig-job:
     build:
-      context: ./pig-visual/pig-xxl-job-admin
+      context: dzero-visual/pig-xxl-job-admin
     restart: always
     container_name: pig-job
     hostname: pig-job
