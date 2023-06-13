@@ -41,5 +41,6 @@
         <module>dzero-common-feign</module>
         <module>dzero-common-swagger</module>
         <module>dzero-common-xss</module>
+		<module>dzero-common-redis</module>
     </modules>
 </project>

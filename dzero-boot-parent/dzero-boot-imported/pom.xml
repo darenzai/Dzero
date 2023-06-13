@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<parent>
+		<artifactId>dzero-boot-parent</artifactId>
+		<groupId>com.darenzai</groupId>
+		<version>3.6.7</version>
+	</parent>
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>dzero-boot-imported</artifactId>
+
+	<properties>
+		<maven.compiler.source>8</maven.compiler.source>
+		<maven.compiler.target>8</maven.compiler.target>
+	</properties>
+
+	<dependencies>
+		<!--upms api、model 模块-->
+		<dependency>
+			<groupId>com.darenzai</groupId>
+			<artifactId>dzero-upms-api</artifactId>
+		</dependency>
+		<!--文件管理-->
+		<dependency>
+			<groupId>com.pig4cloud.plugin</groupId>
+			<artifactId>oss-spring-boot-starter</artifactId>
+		</dependency>
+		<!--feign 调用-->
+		<dependency>
+			<groupId>com.darenzai</groupId>
+			<artifactId>dzero-common-feign</artifactId>
+		</dependency>
+		<!--安全模块-->
+		<dependency>
+			<groupId>com.darenzai</groupId>
+			<artifactId>dzero-common-security</artifactId>
+		</dependency>
+		<!--日志处理-->
+		<dependency>
+			<groupId>com.darenzai</groupId>
+			<artifactId>dzero-common-log</artifactId>
+		</dependency>
+		<!--接口文档-->
+		<dependency>
+			<groupId>com.darenzai</groupId>
+			<artifactId>dzero-common-swagger</artifactId>
+		</dependency>
+		<!-- orm 模块-->
+		<dependency>
+			<groupId>com.baomidou</groupId>
+			<artifactId>mybatis-plus-boot-starter</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.mysql</groupId>
+			<artifactId>mysql-connector-j</artifactId>
+		</dependency>
+		<!--注册中心客户端-->
+		<dependency>
+			<groupId>com.alibaba.cloud</groupId>
+			<artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+		</dependency>
+		<!--配置中心客户端-->
+		<dependency>
+			<groupId>com.alibaba.cloud</groupId>
+			<artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+		</dependency>
+		<!-- 阿里云短信下发 -->
+		<dependency>
+			<groupId>io.springboot.sms</groupId>
+			<artifactId>aliyun-sms-spring-boot-starter</artifactId>
+		</dependency>
+		<!--xss 过滤-->
+		<dependency>
+			<groupId>com.darenzai</groupId>
+			<artifactId>dzero-common-xss</artifactId>
+		</dependency>
+		<!--undertow容器-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-undertow</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.hibernate.javax.persistence</groupId>
+			<artifactId>hibernate-jpa-2.1-api</artifactId>
+			<version>1.0.0.Final</version>
+		</dependency>
+		<!-- excel -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>4.1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml-schemas</artifactId>
+			<version>4.1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>4.1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.monitorjbl</groupId>
+			<artifactId>xlsx-streamer</artifactId>
+			<version>2.1.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.alibaba/easyexcel -->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>easyexcel</artifactId>
+			<version>3.1.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.darenzai</groupId>
+			<artifactId>darenzai-starter-redis</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.darenzai</groupId>
+			<artifactId>darenzai-starter-redis</artifactId>
+			<version>3.6.7</version>
+			<scope>compile</scope>
+		</dependency>
+	</dependencies>
+</project>

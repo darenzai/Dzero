@@ -100,6 +100,7 @@
         <module>dzero-upms</module>
         <module>dzero-common</module>
         <module>dzero-visual</module>
+        <module>dzero-boot-parent</module>
     </modules>
 
     <dependencyManagement>
